@@ -1,0 +1,31 @@
+@media screen and (max-width:1000px){
+    .menu{
+        display: none;
+    }
+
+    .navbar{
+        position:static;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin: 0px;
+        text-align: center;
+    }
+
+    .headline{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .img-headline{
+        margin: 10px;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+}
