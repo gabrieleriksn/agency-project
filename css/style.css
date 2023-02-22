@@ -10,6 +10,8 @@ body{
 }
 
 .navbar{
+    position:sticky;
+    top: 0px;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -17,6 +19,7 @@ body{
     background-color: white;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .logo{
@@ -164,4 +167,34 @@ body{
 
 .ocult-text{
     display:none;
+}
+
+
+footer{
+    display:flex;
+    margin-top: 150px;
+    flex-flow: column wrap;
+    height: 300px;
+    background-image: linear-gradient(to right, #2e2cb6, #5755e7);
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-logo{
+    color: white;
+}
+
+.footer-logo h2{
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+}
+
+.whats-logo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.whats-logo:hover img{
+    width: 60px;
 }
