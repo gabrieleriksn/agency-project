@@ -22,12 +22,11 @@ body{
 .logo{
     flex:20%;
     margin-left: 10%;
-    text-align: center;
 }
 
 .logo h1{
     font-family: 'Lobster', cursive;
-    color: #180f4a;
+    color: #2e2cb6;
     font-size: 34px;
 }
 
@@ -39,19 +38,19 @@ body{
 
 .menu a{
     text-decoration: none;
-    color: #180f4a;
+    color: #2e2cb6;
     font-size: 20px;
     padding: 20px 16px;
 }
 
 .menu a:hover{
-    color: #ff2978;
-    border-top: 4px solid #180f4a;
+    color: #fb8177;
+    border-top: 4px solid #2e2cb6;
 }
 
 #contact-us-button{
     color: white;
-    background-color: #180f4a;
+    background-color: #2e2cb6;
     padding: 10px 25px;
     border-radius: 5px;
     margin-right: 10%;
@@ -59,6 +58,52 @@ body{
 }
 
 #contact-us-button:hover{
-    background-color: #ff2978;
+    background-color: #fb8177;
     border: none;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    background-color: white;
+}
+
+.headline h2{
+    color: #2e2cb6;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: #2e2cb6;
+    text-align: left;
+}
+
+.hire-button{
+    background-color:#fb8177;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline;
+
+}
+
+.hire-button:hover{
+    background-color:#2e2cb6;   
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
